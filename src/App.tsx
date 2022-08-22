@@ -8,7 +8,6 @@ import StatCard from "./atoms/statCard";
 
 function App() {
   const data: any = useSelector<any>((state) => state.result);
-  // console.log(data.totalSamplesTested);
   const dispatch = useDispatch();
 
   const getData = () => {
