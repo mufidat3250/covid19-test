@@ -1,0 +1,14 @@
+.nav--wrapper {
+  @apply bg-white shadow-sm h-20 flex items-center;
+}
+.nav--container {
+  width: 90%;
+  margin: 0 auto;
+}
+.content {
+  @apply flex justify-between items-center;
+}
+.button {
+  @apply bg-[#316d0c] outline-none border-none p-4 rounded-full 
+  text-white font-bold cursor-pointer;
+}
